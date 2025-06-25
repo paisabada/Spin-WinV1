@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spin & Win - ₹500 SIP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wheel-container">
+    <canvas id="wheel" width="300" height="300"></canvas>
+    <button id="spin">Spin</button>
+  </div>
+  <div id="result" class="result-message">🎉 Congratulations! You’ve won a ₹500 SIP!</div>
+
+  <h2 class="form-title">Complete Activation</h2>
+  <form id="activationForm">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="tel" name="mobile" placeholder="Mobile Number" required>
+    <input type="text" name="city" placeholder="City" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <select name="occupation" required>
+      <option value="" disabled selected>Select Occupation</option>
+      <option value="Salaried">Salaried</option>
+      <option value="Business">Business</option>
+      <option value="Student">Student</option>
+      <option value="Retired">Retired</option>
+      <option value="Other">Other</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
